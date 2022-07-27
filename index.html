@@ -182,9 +182,9 @@
               </div>
         </section>
 
-
-
     </header>
+
+    <!-- Main Section  -->
 
     <main class="container mx-auto">
 
@@ -276,6 +276,7 @@
         </section>
 
         <!-- Explore Learning Section -->
+
         <section class="explore mx-4 md:mx-0 mb-8 lg:mb-32 bg-gray-200 md:flex items-center gap-4 rounded-md">
 
             <div>
@@ -311,6 +312,8 @@
 
         </section>
 
+<!-- Ready To Join Section  -->
+
         <section class="ready-to-join mx-4 md:mx-0 bg-registerButton text-center lg:text-left py-8 px-4 space-y-4 rounded-md">
             <div class="lg:flex items-center lg:px-24 lg:py-20 lg:gap-96 space-y-4">
                 <div>
@@ -318,9 +321,91 @@
                     <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
                 <div>
-                    <a href="#"><button class="text-xl bg-white text-registerButton font-bold px-8 py-4 rounded-md">Registration</button></a>
+                    <button class="text-xl bg-white text-registerButton font-bold px-8 py-4 rounded-md transition
+                        duration-150
+                        ease-in-out" data-bs-toggle="modal" data-bs-target="#registerModal">Registration</button>
                 </div>
             </div>
+
+            <!-- Modal Contents -->
+
+            <div class="modal fade fixed top-12 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+            id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+            <div class="modal-dialog relative w-auto pointer-events-none">
+            <div
+            class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div
+            class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+            <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalLabel">Register Here</h5>
+            <!-- <button type="button"
+                class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body relative p-4">
+                <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md">
+                    <form>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="form-group mb-6">
+                        <input type="text" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput123"
+                            aria-describedby="emailHelp123" placeholder="First name">
+                        </div>
+                        <div class="form-group mb-6">
+                        <input type="text" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124"
+                            aria-describedby="emailHelp124" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-group mb-6">
+                        <input type="email" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded
+                        transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput125"
+                        placeholder="Email address">
+                    </div>
+                    <div class="form-group mb-6">
+                        <input type="password" class="form-control block
+                        w-full
+                        px-3
+                        py-1.5
+                        text-base
+                        font-normal
+                        text-gray-700
+                        bg-white bg-clip-padding
+                        border border-solid border-gray-300
+                        rounded
+                        transition
+                        ease-in-out
+                        m-0
+                        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput126"
+                        placeholder="Password">
+                    </div>
+                    <div class="form-group form-check text-center mb-6">
+                        <input type="checkbox"
+                        class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
+                        id="exampleCheck25" checked>
+                        <label class="form-check-label inline-block text-gray-800" for="exampleCheck25">Subscribe to our newsletter</label>
+                    </div>
+                    <button type="submit" class="
+                        w-full
+                        px-6
+                        py-2.5
+                        bg-blue-600
+                        text-white
+                        font-medium
+                        text-xs
+                        leading-tight
+                        uppercase
+                        rounded
+                        shadow-md
+                        hover:bg-blue-700 hover:shadow-lg
+                        focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+                        active:bg-blue-800 active:shadow-lg
+                        transition
+                        duration-150
+                        ease-in-out">Sign up</button>
+                    </form>
+                </div>
+</div>
+</div>
+</div>
+</div>
         </section>
 
 
