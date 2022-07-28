@@ -19,7 +19,7 @@
             sans: ['Inter', 'sans-serif'],
             },
             colors: {
-            registerButton: '#289bde',
+            commonColor: '#289bde',
             },
         }
         }
@@ -28,25 +28,17 @@
 
 </head>
 <body>
-    <header class="container mx-auto">
+    <header class="container md:mx-auto px-4">
 
     <!-- Navigation Bar -->
 
-        <nav class="
-                    relative
-                    w-full
-                    flex flex-wrap
-                    py-4
-                    text-gray-500
-                    hover:text-gray-700
-                    focus:text-gray-700
-                    navbar navbar-expand-lg navbar-light
+        <nav class="relative w-full flex flex-wrap py-4 text-gray-500 hover:text-gray-700 focus:text-gray-700 navbar navbar-expand-lg navbar-light
                 ">
-        <div class="container w-full flex flex-wrap items-center justify-between mx-auto px-6">
+        <div class="container w-full flex flex-wrap items-center justify-between mx-auto">
             <a class="text-xl text-black" href="#">KAMAL's CARE</a>
             
         <div class="flex md:order-2">
-            <button type="button" class="hidden lg:block md:block text-registerButton bg-whit focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mr-3 md:mr-0 border border-registerButton">Register</button>
+            <button type="button" class="hidden lg:block md:block text-commonColor bg-whit focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mr-3 md:mr-0 border border-commonColor">Register</button>
 
             <button class="
             navbar-toggler
@@ -99,7 +91,7 @@
                   <div class="carousel-item active relative float-left w-full">
                     <img
                       src="images/cover/cover-1.png"
-                      class="block w-full"
+                      class="block w-full contrast-50"
                       alt="..."
                     />
                     <div class="carousel-caption absolute py-4 
@@ -111,9 +103,9 @@
                                 <span class="text-sm md:text-4xl lg:text-6xl"> Learning</span>
                               </h5>
         
-                              <p class="text-xs xl:text-xl md:text-sm my-2 lg:my-8 lg:px-12 md">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              <p class="text-xs xl:text-xl md:text-sm my-2 lg:my-8 lg:px-12 md">We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
         
-                              <a href="https://shikho.tech/" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md">Get Started</button></a>
+                              <a href="https://shikho.tech/" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md">Get Started</button></a>
                         </div>
                     </div>
                   </div>
@@ -122,19 +114,19 @@
                 <div class="carousel-item relative float-left w-full">
                     <img
                     src="images/cover/cover-2.jpg"
-                    class="block w-full"
+                    class="block w-full contrast-50"
                     alt="..."
                     />
                     <div class="carousel-caption absolute py-4 text-center flex items-center justify-center">
                         <div>
                             <h5>
-                                <span class="text-sm md:text-4xl lg:text-6xl lg:mb-1 lg:block"> Get Started Digital</span><br>
-                                <span class="text-sm md:text-4xl lg:text-6xl"> Learning</span>
+                                <span class="text-sm md:text-4xl lg:text-6xl lg:mb-1 lg:block"> You can learn </span><br>
+                                <span class="text-sm md:text-4xl lg:text-6xl"> Anything</span>
                             </h5>
     
-                            <p class="text-xs xl:text-xl md:text-sm my-2 lg:my-8 lg:px-12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <p class="text-xs xl:text-xl md:text-sm my-2 lg:my-8 lg:px-12">Build a deep, solid understanding in math, science, and more.</p>
     
-                            <a href="https://shikho.tech/" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md">Get Started</button></a>
+                            <a href="https://shikho.tech/" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md">Get Started</button></a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +135,7 @@
                 <div class="carousel-item relative float-left w-full">
                     <img
                     src="images/cover/cover-3.jpg"
-                    class="block w-full"
+                    class="block w-full contrast-50"
                     alt="..."
                     />
                     <div class="carousel-caption absolute py-4 flex items-center justify-center text-center">
@@ -153,9 +145,9 @@
                             <span class="text-sm md:text-4xl lg:text-6xl"> Learning</span>
                         </h5>
 
-                        <p class="text-xs xl:text-xl md:text-sm my-2 lg:my-8 lg:px-12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p class="text-xs xl:text-xl md:text-sm my-2 lg:my-8 lg:px-12">We make learning engaging & effective by leveraging deep pedagogy & cutting edge technology</p>
 
-                        <a href="https://shikho.tech/" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md">Get Started</button></a>
+                        <a href="https://shikho.tech/" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md">Get Started</button></a>
                        </div>
                     </div>
                 </div>
@@ -193,7 +185,7 @@
         <section class="course-section">
                 <h1 class="text-xl md:text-5xl text-center mb-4 lg:mb-8 font-extrabold lg:mx-96 leading-4"> Discover Our Popular Courses</h1>
 
-                <p class="text-center px-8 mb-8 lg:mx-72">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p class="text-center px-8 mb-8 lg:mx-72">Start, switch, or advance your career with more than 5,000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
 
             <div class="courses grid grid-cols-1 lg:grid-cols-2 gap-4">
 
@@ -203,8 +195,8 @@
                         <img src="images/course/course-1.png" alt="">
                         <div class="p-6">
                             <h2 class="text-2xl mb-4">Fundamental Of UI/UX Design</h2>
-                            <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-2xl font-bold text-registerButton">Price: 20$</h4>
+                            <p class="mb-4">This course covers the basics of UX Design and the fundamentals of UI Design</p>
+                            <h4 class="text-2xl font-bold text-commonColor">Price: 18$</h4>
                         </div>
                     </div>
                 </div>
@@ -215,8 +207,8 @@
                         <img src="images/course/course-2.png" alt="">
                         <div class="p-6">
                             <h2 class="text-2xl mb-4">Javascript Basic to Advanced</h2>
-                            <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-2xl font-bold text-registerButton">Price: 20$</h4>
+                            <p class="mb-4">In this course You will learn how to think like a developer, how to plan application features.</p>
+                            <h4 class="text-2xl font-bold text-commonColor">Price: 20$</h4>
                         </div>
                     </div>
                 </div>
@@ -227,8 +219,8 @@
                         <img src="images/course/course-3.png" alt="">
                         <div class="p-6">
                             <h2 class="text-2xl mb-4">FullStack Web Development</h2>
-                            <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-2xl font-bold text-registerButton">Price: 20$</h4>
+                            <p class="mb-4">You will learn the latest technologies, including Javascript, React, Node.</p>
+                            <h4 class="text-2xl font-bold text-commonColor">Price: 20$</h4>
                         </div>
                     </div>
                 </div>
@@ -238,9 +230,9 @@
                     <div class="flex flex-col md:flex-row mx-8 lg:mx-0 border rounded-md border-gray-300">
                         <img src="images/course/course-4.png" alt="">
                         <div class="p-6">
-                            <h2 class="text-2xl mb-4">Fundamental Of UI/UX Design</h2>
-                            <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-2xl font-bold text-registerButton">Price: 20$</h4>
+                            <h2 class="text-2xl mb-4">Digital Marketing</h2>
+                            <p class="mb-4">An understanding of the complex way digital advertising companies work together</p>
+                            <h4 class="text-2xl font-bold text-commonColor">Price: 14$</h4>
                         </div>
                     </div>
                 </div>
@@ -250,9 +242,9 @@
                     <div class="flex flex-col md:flex-row mx-8 lg:mx-0 border rounded-md border-gray-300">
                         <img src="images/course/course-5.png" alt="">
                         <div class="p-6">
-                            <h2 class="text-2xl mb-4">Fundamental Of UI/UX Design</h2>
-                            <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-2xl font-bold text-registerButton">Price: 20$</h4>
+                            <h2 class="text-2xl mb-4">Photography Basic Rules</h2>
+                            <p class="mb-4">This online photography course will teach you how to take amazing images and even sell them</p>
+                            <h4 class="text-2xl font-bold text-commonColor">Price: 30$</h4>
                         </div>
                     </div>
                 </div>
@@ -262,16 +254,16 @@
                     <div class="flex flex-col md:flex-row mx-8 lg:mx-0 border rounded-md border-gray-300">
                         <img src="images/course/course-6.png" alt="">
                         <div class="p-6">
-                            <h2 class="text-2xl mb-4">Fundamental Of UI/UX Design</h2>
-                            <p class="mb-4">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <h4 class="text-2xl font-bold text-registerButton">Price: 20$</h4>
+                            <h2 class="text-2xl mb-4">Motion Graphics</h2>
+                            <p class="mb-4">This course is for people completely new to After Effects. No previous animation or motion graphic design experienced is necessary</p>
+                            <h4 class="text-2xl font-bold text-commonColor">Price: 22$</h4>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="text-center my-8">
-                <a href="#" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">View All courses</button></a>
+                <a href="#" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">View All courses</button></a>
             </div>
         </section>
 
@@ -286,7 +278,7 @@
                 <h2 class="text-3xl md:text-4xl md:font-semibold my-4">
                     Explore The elearning Institute
                 </h2>
-                <p class="pr-2 mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which<span class="text-registerButton lg:hidden">...See More</span><span class="hidden lg:block">don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br><br>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined. </span></p>
+                <p class="pr-2 mb-4">Who doesn’t love a good story of self-reinvention We’ve certainly seen our share among Udemy students and instructors alike There’s the Brazilian lawyer who became an app developer<span class="text-commonColor lg:hidden">...See More</span><span class="hidden lg:block">the Egyptian civil engineer who pivoted to sports management, the New York actor who turned into a startup CEO, and many more. </span></p>
 
                 <div class="details grid grid-cols-2 lg:grid-cols-3 gap-4">
                     <div>
@@ -304,7 +296,7 @@
                 </div>
 
                 <div class="py-4 ">
-                    <a href="#" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">Read More</button></a>
+                    <a href="#" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">Read More</button></a>
                 </div>
 
 
@@ -314,14 +306,14 @@
 
 <!-- Ready To Join Section  -->
 
-        <section class="ready-to-join mx-4 md:mx-0 mb-8 lg:mb-32 md:mb-16 bg-registerButton text-center lg:text-left py-8 px-4 space-y-4 rounded-md">
+        <section class="ready-to-join mx-4 md:mx-0 mb-8 lg:mb-32 md:mb-16 bg-commonColor text-center lg:text-left py-8 px-4 space-y-4 rounded-md">
             <div class="lg:flex items-center lg:px-24 lg:py-20 lg:gap-96 space-y-4">
                 <div>
                     <h2 class="text-4xl text-white mb-4"> Ready to Join? </h2>
-                    <p class="text-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p class="text-white">Have a dream? Start learning your way to it with courses from $11.99.</p>
                 </div>
                 <div>
-                    <button class="text-xl bg-white text-registerButton font-bold px-8 py-4 rounded-md transition
+                    <button class="text-xl bg-white text-commonColor font-bold px-8 py-4 rounded-md transition
                         duration-150
                         ease-in-out" data-bs-toggle="modal" data-bs-target="#registerModal">Registration</button>
                 </div>
@@ -412,7 +404,7 @@
         <section class="meet-students mx-4 md:mx-0">
             <div class="space-y-4 px-8 md:px-0 lg:w-7/12">
                 <h1 class="text-center md:text-left text-2xl md:text-4xl lg:text-6xl font-semibold md:mb-8">Meet Our Successfull Students</h1>
-                <p class="text-center md:text-left text-gray-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <p class="text-center md:text-left text-gray-500">Learners around the world are launching new careers, advancing in their fields, and enriching their lives.</p>
             </div>
             <div class="students mt-4 md:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div class="student border border-slate-200 rounded-md md:order-3">
@@ -449,7 +441,7 @@
             </div>
 
             <div class="text-center my-8 md:hidden">
-                <a href="#" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">View All</button></a>
+                <a href="#" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">View All</button></a>
             </div>
 
 
@@ -460,18 +452,48 @@
         <section class="mt-8 lg:mt-32 md:mt-16 mx-4 md:mx-0">
 
             <h1 class="text-center text-4xl font-bold mb-4 px-8 ">Some Students Feedback</h1>
-            <p class="text-gray-500 md:text-xl text-center mb-4 md:mb-12 px-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            <p class="text-gray-500 md:text-xl text-center mb-4 md:mb-12 px-4">Have a look at what they are saying</p>
 
             <div class="grid gap-8 lg:grid-cols-2">
 <!-- Single Feedback        -->
-                <div class="feedback border border-gray-100 rounded-md p-6 md:p-10 space-y-8 relative">
-                    <img src="images/left.png" alt="" class="hidden lg:block absolute top-48 left-0 -translate-x-6">
+                <div class="feedback border border-gray-100 rounded-md p-6 md:p-8 space-y-4 relative">
+                    <img src="images/left.png" alt="" class="hidden lg:block absolute top-32 left-0 -translate-x-6">
                     <div class="flex justify-between">
                         <img src="images/comma.png" alt="">
-                        <img src="images/Rating.png" alt="">
+                        <div class="ratings">
+                            <ul class="flex justify-center">
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                  </svg>
+                                </li>
+
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                  </svg>
+                                </li>
+                                
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                  </svg>
+                                </li>
+                                <li>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                    </svg>
+                                  </li>
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                                  </svg>
+                                </li>
+                              </ul>
+                        </div>
                     </div>
                     <div>
-                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                        <p class="text-gray-500">“Kamal's Care has helped me expand my knowledge through several important courses that are extremely impactful and helpful for my career.”</p>
                     </div>
                     <div class="flex gap-8 items-center">
                         <img class="" src="images/student/student-5.png" alt="">
@@ -484,14 +506,44 @@
 
 <!-- Single Feedback        -->  
 
-                <div class="feedback border border-gray-100 rounded-md p-6 md:p-10 space-y-8 relative">
-                    <img src="images/right.png" alt="" class="hidden lg:block absolute top-48 right-0 translate-x-6">
+                <div class="feedback border border-gray-100 rounded-md p-6 md:p-8 space-y-4 relative">
+                    <img src="images/right.png" alt="" class="hidden lg:block absolute top-32 right-0 translate-x-6">
                     <div class="flex justify-between">
                         <img src="images/comma.png" alt="">
-                        <img src="images/Rating.png" alt="">
+                        <div class="ratings">
+                            <ul class="flex justify-center">
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                  </svg>
+                                </li>
+
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                  </svg>
+                                </li>
+                                
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                  </svg>
+                                </li>
+                                <li>
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                      <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                    </svg>
+                                  </li>
+                                <li>
+                                  <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                                  </svg>
+                                </li>
+                              </ul>
+                        </div>
                     </div>
                     <div>
-                        <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem.</p>
+                        <p class="text-gray-500">“I was able to prove to potential employers that I have a solid understanding of UI and UX and started to receive real, viable job offers.”</p>
                     </div>
                     <div class="flex gap-8 items-center">
                         <img class="" src="images/student/student-6.png" alt="">
@@ -504,7 +556,7 @@
             </div>
 
             <div class="text-center my-8 lg:hidden">
-                <a href="#" target="_blank"><button class="bg-registerButton px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">View All</button></a>
+                <a href="#" target="_blank"><button class="bg-commonColor px-4 lg:px-8 py-2 lg:py-4 rounded-md text-white">View All</button></a>
             </div>
         </section>
         
@@ -512,7 +564,7 @@
 
         <section class="mt-8 lg:mt-32 md:mt-16 mx-4 md:mx-0">
             <h1 class="text-2xl lg:text-6xl text-center font-bold my-6 lg:my-12">Frequently Asked Questions</h1>
-            <p class="text-center mb-6 lg:px-20 lg:mb-12 text-gray-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+            <p class="text-center mb-6 lg:px-20 lg:mb-12 text-gray-400">Your Questions are answered here</p>
 
             <div class="flex lg:justify-center">
                 <div class="accordion lg:w-9/12" id="accordionExample">
@@ -608,6 +660,7 @@
             </div>
         </section>
     </main>
+<!-- Footer Section  -->
 
 <footer class="bg-black text-white space-y-1">
     <div class="p-12 md:py-20 lg:py-32">
